@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+nav {
+    background: #333;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+section {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 2rem 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#portfolio {
+    background: #fff; 
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+}
+
+.portfolio-item a {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-item a:hover {
+    background: #0056b3;
+}
+.profile-photo {
+    max-width: 200px; 
+    border: 5px solid #333; 
+    border-radius: 50%; 
+    display: block; 
+    margin: 0 auto;
+    margin-top: 20px;
+}
